@@ -5,6 +5,9 @@
                 document.getElementById("demo").innerHTML = Date();
 
             }
+            function tellHello(){
+                document.getElementById('demo').innerHTML = "Hello";
+            }
         </script>
 
     </head>
@@ -12,6 +15,9 @@
         <h1>My first Javascript</h1>
         <button type="button" onclick="viewDateTime()">Click me to display Date and Time</button>
         <p id="demo"></p>
+        <button type="button" onclick="tellHello()">Click me to tell Hello</button>
+        <p id="demo"></p>
+
 
     </body>
 </html>
