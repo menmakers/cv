@@ -3,10 +3,15 @@
         <script>
             function viewDateTime(){
                 document.getElementById("demo").innerHTML = Date();
-
             }
             function tellHello(){
                 document.getElementById('demo').innerHTML = "Hello";
+            }
+            function menor(){
+                document.getElementById('demo').style.fontSize = "35px";
+            }
+            function mayor(){
+                document.getElementById('demo').style.fontSize = "50px";
             }
         </script>
 
@@ -16,6 +21,10 @@
         <button type="button" onclick="viewDateTime()">Click me to display Date and Time</button>
         
         <button type="button" onclick="tellHello()">Click me to tell Hello</button>
+
+        <button type="button" onclick="menor()">Click me to 35px</button>
+        
+        <button type="button" onclick="mayor()">Click me to 50px</button>
         
         <p id="demo"></p>
 
