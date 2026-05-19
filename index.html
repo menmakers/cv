@@ -15,7 +15,7 @@
                 document.body.style.backgroundColor = '#222222'; // Fondo oscuro
                 document.body.style.color = 'white';             // Texto blanco
                 document.getElementById('boton-estilo').textContent = 'Cambiar a Modo Claro';      // Cambiamos el texto del botón
-                
+                document.getElementById('container').style.backgroundColor = "darkgray";
             } else {
                 
                 // Si no, volvemos al modo claro
@@ -28,7 +28,7 @@
     </script>        
     </head>
     <body>
-        <div class="container">
+        <div id="container" class="container">
             <div class="header">
                 <div class="img-area">
                     <img src="images/foto.jpg" alt="Foto de perfil">
