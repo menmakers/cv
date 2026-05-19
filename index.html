@@ -10,7 +10,7 @@
         <script>
         function cambiarColor(){
             // Si el fondo actual es blanco (o está vacío), cambiamos a modo oscuro
-            if (document.body.style.backgroundColor === '#00b6c4' || document.body.style.backgroundColor === '') {
+            if (document.body.style.backgroundColor !== '#222222' || document.body.style.backgroundColor === '') {
                 
                 document.body.style.backgroundColor = '#222222'; // Fondo oscuro
                 document.body.style.color = 'white';             // Texto blanco
